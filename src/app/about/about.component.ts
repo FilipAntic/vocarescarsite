@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Language } from 'angular-l10n';
+import { Language, LocaleService, TranslationService } from 'angular-l10n';
 
 @Component({
   selector: 'app-about',
@@ -10,7 +10,7 @@ export class AboutComponent implements OnInit {
 
   @Language() lang: string;
 
-  constructor() { }
+  constructor(public locale: LocaleService, public translation: TranslationService) { }
 
   ngOnInit() {
   }

@@ -1,6 +1,6 @@
 <div class="viewPort100">
   <div class="leftDiv">
-    <h1>Kontakt</h1>
+    <h1>{{'contact.heading' | translate:lang}}</h1>
     <div class="mapContainer">
       <!-- <agm-map [latitude]="lat" [longitude]="lng" [zoom]=14 [mapTypeId]="'roadmap'">
         <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
@@ -9,29 +9,35 @@
   </div>
 
   <div class="rightDiv">
-    <div class="allSections">
-
-      <div class="contactInformation">
-        <p>{{ 'contact.mail' | translate:lang }} &nbsp; &nbsp; {{ 'contact.mailValue' | translate:lang }}</p>
-        <p>{{ 'contact.mobilePhone' | translate:lang }} &nbsp; &nbsp; {{ 'contact.mobilePhoneValue' | translate:lang }}</p>
-        <p>{{ 'contact.address' | translate:lang }} &nbsp; &nbsp; {{ 'contact.addressValue' | translate:lang }}</p>
-        <p>{{ 'contact.fax' | translate:lang }} &nbsp; &nbsp; {{ 'contact.faxValue' | translate:lang }}</p>
+    <div class="contactInformation">
+      <div class="left">
+        <p>{{ 'contact.mail' | translate:lang }}</p>
+        <p>{{ 'contact.mobilePhone' | translate:lang }}</p>
+        <p>{{ 'contact.address' | translate:lang }}</p>
+        <p>{{ 'contact.fax' | translate:lang }}</p>
       </div>
+      <div class="right">
+        <p> {{ 'contact.mailValue' | translate:lang }}</p>
+        <p>{{ 'contact.mobilePhoneValue' | translate:lang }}</p>
+        <p> {{ 'contact.addressValue' | translate:lang }}</p>
+        <p>{{ 'contact.faxValue' | translate:lang }}</p>
+      </div>
+    </div>
+
+    <div class="form">
       <form (ngSubmit)="save()" [formGroup]="contactUsForm">
-        <div class="form">
-          <label for="mail">{{ 'contact.mail' | translate:lang }}</label>
-          <input #mail type="text" [formControlName]="'email'">
-          <label for="name">{{ 'contact.name' | translate:lang }}</label>
-          <input #name type="text" [formControlName]="'name'">
-          <label for="phoneNumber">{{ 'contact.mobilePhone' | translate:lang }}</label>
-          <input #phoneNumber type="text" [formControlName]="'phoneNumber'">
-          <label for="message">{{ 'contact.message' | translate:lang }}</label>
-          <textarea rows="8" class="textAreaMessage" #message></textarea>
-          <button class="myBtn">{{ 'contact.send' | translate:lang }}</button>
-        </div>
-        <br>
+        <label for="mail">{{ 'contact.mail' | translate:lang }}</label>
+        <input #mail type="text" [formControlName]="'email'">
+        <label for="name">{{ 'contact.name' | translate:lang }}</label>
+        <input #name type="text" [formControlName]="'name'">
+        <label for="phoneNumber">{{ 'contact.mobilePhone' | translate:lang }}</label>
+        <input #phoneNumber type="text" [formControlName]="'phoneNumber'">
+        <label for="message">{{ 'contact.message' | translate:lang }}</label>
+        <textarea rows="8" class="textAreaMessage" #message></textarea>
+        <button class="myBtn">{{ 'contact.send' | translate:lang }}</button>
       </form>
     </div>
+
     <div class="logos">
       <img class="logo" src="assets/images/Logo.png" alt="Logo" height="50px" width="100px">
       <a href="javascript: void(0)" id="first" appScroll>
@@ -39,3 +45,4 @@
       </a>
     </div>
   </div>
+</div>

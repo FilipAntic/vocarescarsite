@@ -10,16 +10,25 @@
         "menuLanguageFrench": "French"
     },
     "contact": {
+        "heading": "CONTACT",
         "mailValue": "zoran.antic64@gmail.com",
         "mobilePhoneValue": "+38163313071",
         "addressValue": "Salinacka bb",
-        "faxValue": "Fax",
-        "mail": "Mail",
-        "mobilePhone": "Phone number",
-        "address": "Address",
-        "fax": "Fax",
-        "send": "Send",
+        "faxValue": "Fax:",
+        "mail": "Mail:",
+        "mobilePhone": "Phone number:",
+        "address": "Address:",
+        "fax": "Fax:",
+        "send": "Send:",
         "message": "Message:",
         "name": "Name:"
+    },
+    "aboutUs": {
+        "heading": "ABOUT US",
+        "mainText": "Naše preduzeće je osnovano u maju mesecu 2017. godine. Delatnost preduzeća je prerada i proizvodnja mesa i kućica puževa. \nGrad Smederevo decenijama unazad ima tradiciju u proizvodnji i preradi jestivih vrsta puževa, kako sa teritorije Srbije, tako i sa teritorija okolnih zemalja. Tehnologija prerade puževa počela je da se razvija još u bivšoj agro kompaniji „VOĆAR BEOGRAD“, pogonska jedinica hladnjača Smederevo, koja se pretežno bavila izvozom delikatesnih proizvoda na tržište zapadnoevropskih zemalja. Ta proizvodnja se kontinuirano odvija i usavršava sve do danas.\n Ljudi sa višedecenijskim iskustvom u ovom poslu, ponovo su udružili snage, i uz pomoć mladih i obrazovanih kadrova pokrenuli novi pogon za preradu puževa u Smederevu.\n Firma „VOCARESCAR“ je orjentisana na proizvodnju i preradu koja je pre svega namenjena za izvoz na tržište zemalja Evropske Unije.\n Nabavka živog puža se vrši od kooperanata koji se dugi niz godina bave tim poslom. To su lica koja su iskusna i obučena za sakupljanje jestivih vrsta puževa, a mnogi od njih imaju porodičnu tradiciju bavljenja ovim poslom. Jedan deo sirovina se uvozi i iz okolnih zemalja (Makedonija, Bosna i Hercegovina, Albanija, Rumunija, Bugarska)."
+    },
+    "production": {
+        "heading": "PRODUCTION",
+        "mainText": "Proizvodne linije koje se nalaze u objektu su adaptirane po aktuelnim evropskim standardima, dok su skladišta najmoderniji potpuno automatizovani rashladni sistemi koji se sastoje od komore za režim hlađenja, režim lagerovanja duboko zamrznute robe i tunela za režim dubokog zamrzavanja.Proizvodnja u našem objektu poseduje proizvodne linije za blanširanje puževa (9,7t/dan), liniju za termičku obradu mesa puževa (1t/dan), liniju za pranje i sterilizaciju kućica (1t/dan)."
     }
 }

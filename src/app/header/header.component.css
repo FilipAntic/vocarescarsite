@@ -4,7 +4,7 @@ nav {
     position: fixed;
     opacity: 0.8;
     margin-top: 0;
-    z-index: 100;
+    /* z-index: 100; */
     width: 100%;
     border-bottom: 2px solid white;
 }
@@ -58,13 +58,11 @@ nav {
     content: url("/assets/images/Logotip.jpg");
 }
 
-
 /* 
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
  */
-
 
 /* 
 .logo {

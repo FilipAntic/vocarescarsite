@@ -1,51 +1,68 @@
 .viewPort100 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
 }
 
 .pHolder {
     position: relative;
-    border-bottom: 2px solid black;
-    width: 100vw;
-    height: 10%;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    width: 100%;
+    height: 12%;
     background-color: #282d2e;
-    text-align: center;
+    text-align: left;
 }
 
 .heading1 {
-    position: absolute;
+    margin: 0;
     color: white;
-    left: 1em;
-    /* transform: translate(-50%, -50%); */
+    padding-top: 12px;
+    font-weight: bold;
+    padding-left: 5%;
 }
 
-.leftDiv {
-    background: url("../../assets/images/fabrika.jpg") no-repeat center;
+.wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.left, .right {
+    position: relative;
     width: 50%;
-    height: 100vh;
     float: left;
+    height: 100%;
 }
 
-.rightDiv {
-    background: url("../../assets/images/slika2.jpg") no-repeat center;
-    width: 50%;
-    height: 100vh;
-    float: right;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    color: white;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'SamsungOne 400', sans-serif;
+    font-size: 18px;
 }
 
 img {
-    float: left;
-    width: 50%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 @media screen and (max-width: 800px) {
-    img {
+    /* img {
         float: left;
         width: 100%;
         height: 50%;
         object-fit: cover;
-    }
+    } */
 }

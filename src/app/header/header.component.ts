@@ -64,4 +64,7 @@ export class HeaderComponent implements OnInit {
   openMenu() { // click handler
     this.isToggleClicked = !this.isToggleClicked;
   }
+  closeMenu() {
+    this.isToggleClicked = !this.isToggleClicked;
+  }
 }

@@ -124,19 +124,24 @@
     <div class="collapse navbar-collapse" [ngClass]="{ 'in': isToggleClicked }" #a>
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="javascript: void(0)" id="first" appScroll class="text"> {{ 'menu.menuHome' | translate: lang }}</a>
+          <a href="javascript: void(0)" id="first" appScroll class="text" (click)="closeMenu()"> {{ 'menu.menuHome' |
+            translate: lang }}</a>
         </li>
         <li>
-          <a href="javascript: void(0)" id="second" appScroll> {{ 'menu.menuAboutUs' | translate: lang }}</a>
+          <a href="javascript: void(0)" id="second" appScroll (click)="closeMenu()"> {{ 'menu.menuAboutUs' | translate:
+            lang }}</a>
         </li>
         <li>
-          <a href="javascript: void(0)" id="third" appScroll> {{ 'menu.menuProducts' | translate: lang }}</a>
+          <a href="javascript: void(0)" id="third" appScroll (click)="closeMenu()"> {{ 'menu.menuProducts' | translate:
+            lang }}</a>
         </li>
         <li>
-          <a href="javascript: void(0)" id="fourth" appScroll> {{ 'menu.menuProduction' | translate: lang }}</a>
+          <a href="javascript: void(0)" id="fourth" appScroll (click)="closeMenu()"> {{ 'menu.menuProduction' |
+            translate: lang }}</a>
         </li>
         <li>
-          <a href="javascript: void(0)" id="fifth" appScroll> {{ 'menu.menuContact' | translate: lang }}</a>
+          <a href="javascript: void(0)" id="fifth" appScroll (click)="closeMenu()"> {{ 'menu.menuContact' | translate:
+            lang }}</a>
         </li>
         <li class="dropdown" appDropdown>
           <a href="javascript: void(0)" class="dropdown-toggle">
@@ -146,11 +151,13 @@
           <ul class="dropdown-menu">
             <li id="serbian" (click)="onChange(2)">
               <a href="javascript: void(0)">
-                <span class="flag-icon flag-icon-rs" style="width:24px;position:center;"></span>{{ 'menu.menuLanguageSerbian' | translate:lang }}</a>
+                <span class="flag-icon flag-icon-rs" style="width:24px;position:center;"></span>{{
+                'menu.menuLanguageSerbian' | translate:lang }}</a>
             </li>
             <li id="english" (click)="onChange(1)">
               <a href="javascript: void(0)">
-                <span class="flag-icon flag-icon-gb" style="width:24px;position:center;"></span>{{ 'menu.menuLanguageEnglish' | translate:lang }}
+                <span class="flag-icon flag-icon-gb" style="width:24px;position:center;"></span>{{
+                'menu.menuLanguageEnglish' | translate:lang }}
               </a>
             </li>
           </ul>
