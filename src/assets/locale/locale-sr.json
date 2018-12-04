@@ -1,0 +1,29 @@
+{
+    "menu": {
+        "menuHome": "Pocetna",
+        "menuAboutUs": "O nama",
+        "menuProducts": "Proizvodi",
+        "menuProduction": "Proizvodnja",
+        "menuContact": "Kontakt",
+        "menuLanguageSerbian": "Srpski",
+        "menuLanguageEnglish": "Engleski",
+        "menuLanguageFrench": "Francuski"
+    },
+    "contact": {
+        "mailValue": "zoran.antic64@gmail.com",
+        "mobilePhoneValue": "+38163313071",
+        "addressValue": "Salinacka bb",
+        "faxValue": "Fax",
+        "mail": "Mejl:",
+        "mobilePhone": "Broj telefona:",
+        "address": "Adresa:",
+        "fax": "Faks:",
+        "send": "Pošalji",
+        "message": "Poruka:",
+        "name": "Ime i prezime:"
+    },
+    "aboutUs": {
+        "heading": "O nama",
+        "mainText": "Naše preduzeće je osnovano u maju mesecu 2017. godine. Delatnost preduzeća je prerada i proizvodnja mesa i kućica puževa. \nGrad Smederevo decenijama unazad ima tradiciju u proizvodnji i preradi jestivih vrsta puževa, kako sa teritorije Srbije, tako i sa teritorija okolnih zemalja. Tehnologija prerade puževa počela je da se razvija još u bivšoj agro kompaniji „VOĆAR BEOGRAD“, pogonska jedinica hladnjača Smederevo, koja se pretežno bavila izvozom delikatesnih proizvoda na tržište zapadnoevropskih zemalja. Ta proizvodnja se kontinuirano odvija i usavršava sve do danas.\n Ljudi sa višedecenijskim iskustvom u ovom poslu, ponovo su udružili snage, i uz pomoć mladih i obrazovanih kadrova pokrenuli novi pogon za preradu puževa u Smederevu.\n Firma „VOCARESCAR“ je orjentisana na proizvodnju i preradu koja je pre svega namenjena za izvoz na tržište zemalja Evropske Unije.\n Nabavka živog puža se vrši od kooperanata koji se dugi niz godina bave tim poslom. To su lica koja su iskusna i obučena za sakupljanje jestivih vrsta puževa, a mnogi od njih imaju porodičnu tradiciju bavljenja ovim poslom. Jedan deo sirovina se uvozi i iz okolnih zemalja (Makedonija, Bosna i Hercegovina, Albanija, Rumunija, Bugarska)."
+    }
+}

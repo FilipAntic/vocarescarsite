@@ -1,0 +1,145 @@
+nav {
+    background: #5b7173;
+    /* background: none !important; */
+    position: fixed;
+    opacity: 0.8;
+    margin-top: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.text {
+    animation: example2 10s ease-out;
+}
+
+@keyframes text {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+.navbar-nav>li {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+* {
+    color: white;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        /* display: none !important; */
+    }
+    /* .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display: block !important;
+    }
+    .navbar-header {
+        float: none;
+    } */
+}
+
+.logo {
+    max-height: 50px;
+    max-width: 100px;
+    content: url("/assets/images/Logo.png");
+}
+
+.logotip {
+    max-height: 50px;
+    max-width: 100px;
+    content: url("/assets/images/Logotip.jpg");
+}
+
+
+/* 
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+ */
+
+
+/* 
+.logo {
+    left: 0;
+}
+
+nav {
+    float: right;
+    margin-right: 70px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navli {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 15px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    bottom: 10;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.dropdown-menu li {
+    list-style: none;
+    background: #5b7173;
+}
+
+.menu-icon, .glyphicon {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    .menu-icon, a span {
+        display: inline-block;
+    }
+} */
+
+@media screen and (max-width: 800px) {
+    .logo {
+        max-height: 50px;
+        max-width: 85px;
+        content: url("/assets/images/Logo.png");
+    }
+    .logotip {
+        max-height: 50px;
+        max-width: 85px;
+        content: url("/assets/images/Logotip.jpg");
+    }
+}

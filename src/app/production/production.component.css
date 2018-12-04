@@ -1,0 +1,51 @@
+.viewPort100 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.pHolder {
+    position: relative;
+    border-bottom: 2px solid black;
+    width: 100vw;
+    height: 10%;
+    background-color: #282d2e;
+    text-align: center;
+}
+
+.heading1 {
+    position: absolute;
+    color: white;
+    left: 1em;
+    /* transform: translate(-50%, -50%); */
+}
+
+.leftDiv {
+    background: url("../../assets/images/fabrika.jpg") no-repeat center;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.rightDiv {
+    background: url("../../assets/images/slika2.jpg") no-repeat center;
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        float: left;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
