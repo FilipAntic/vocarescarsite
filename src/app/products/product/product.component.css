@@ -9,11 +9,34 @@
     /* left: 50%;
     top: 50%; */
     /* margin: 100px 0 0 150px; */
-    width: 50%;
+    width: 33%;
     height: 50%;
     text-align: center;
+    float: left;
 }
 
 .productImg {
     border-radius: 50%;
+    width: 50%;
+}
+
+p, h3 {
+    color: #000000;
+}
+
+@media(max-width:768px) {
+    .productDiv {
+        float: none;
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media(min-width: 1920px) {
+   h3{
+       font-size: 2.5em;
+   }
+    p{
+        font-size: 20px;
+    }
 }

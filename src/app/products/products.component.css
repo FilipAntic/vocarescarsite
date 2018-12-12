@@ -1,7 +1,18 @@
 .viewPort100 {
     width: 100%;
-    height: 100vh;
-    background-color: #282d2e;
+    min-height: 90vh;
+    /* height: 100vh; */
+    background-color: #ECECEC;
+    background: linear-gradient(to bottom, #6F8183, #ECECEC);
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin: 0;
 }
 
 /*
@@ -32,6 +43,7 @@
     opacity: .9;
 } */
 
+/* 
 .grid-container--fit {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     position: relative;
@@ -46,5 +58,32 @@
 .grid-element {
     padding: 20px;
     color: #fff;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
+} */
+
+@media(max-width: 768px) {
+    .viewPort100 {
+        min-height: 100vh;
+    }
+}
+
+@media(min-width: 1920px) {
+    h1 {
+        font-size: 4em;
+    }
+    .viewPort100 {
+        min-height: 80vh;
+    }
+}
+
+@media(min-height: 1366px) {
+    .viewPort100 {
+        min-height: 50vh;
+    }
+}
+
+@media(min-height: 1600px) {
+    .viewPort100 {
+        min-height: 75vh;
+    }
 }

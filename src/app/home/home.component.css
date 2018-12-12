@@ -45,6 +45,12 @@
     padding-top: 55px;
 }
 
+@media(max-width:320px) {
+    .heading {
+        font-size: 2em;
+    }
+}
+
 @media screen and (max-width:768px) {
     #first-l, #second-l, #third-l {
         /* content: url("/assets/images/slide-slika1-small.jpg"); */
@@ -70,5 +76,17 @@
     }
     .shortDescriptionP {
         font-size: 22px;
+    }
+}
+
+@media(min-height: 1366px) {
+    .viewPort100 {
+        height: 50vh;
+    }
+}
+
+@media(min-height: 1600px) {
+    .viewPort100 {
+        height: 100vh;
     }
 }

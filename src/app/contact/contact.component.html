@@ -2,10 +2,11 @@
   <div class="leftDiv">
     <h1>{{'contact.heading' | translate:lang}}</h1>
     <div class="mapContainer">
-      <!-- <agm-map [latitude]="lat" [longitude]="lng" [zoom]=14 [mapTypeId]="'roadmap'">
-        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-      </agm-map>-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11347.99455067566!2d20.9487821!3d44.6788068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7601d5e0a3fb2fb8!2sVocarescar!5e0!3m2!1ssr!2srs!4v1544620285786"
+        width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+    <p id="street">{{ 'contact.address1' | translate:lang}}</p>
+    <p>{{ 'contact.city' | translate:lang}}</p>
   </div>
 
   <div class="rightDiv">

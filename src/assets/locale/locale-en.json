@@ -21,7 +21,9 @@
         "fax": "Fax:",
         "send": "Send:",
         "message": "Message:",
-        "name": "Name:"
+        "name": "Name:",
+        "address1": "Ljermontova 13 1, 12,",
+        "city": "Beograd"
     },
     "aboutUs": {
         "heading": "ABOUT US",
@@ -30,5 +32,8 @@
     "production": {
         "heading": "PRODUCTION",
         "mainText": "Proizvodne linije koje se nalaze u objektu su adaptirane po aktuelnim evropskim standardima, dok su skladišta najmoderniji potpuno automatizovani rashladni sistemi koji se sastoje od komore za režim hlađenja, režim lagerovanja duboko zamrznute robe i tunela za režim dubokog zamrzavanja.Proizvodnja u našem objektu poseduje proizvodne linije za blanširanje puževa (9,7t/dan), liniju za termičku obradu mesa puževa (1t/dan), liniju za pranje i sterilizaciju kućica (1t/dan)."
+    },
+    "products": {
+        "heading": "PROIZVODI"
     }
 }
