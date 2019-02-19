@@ -1,6 +1,6 @@
 {
     "menu": {
-        "menuHome": "Pocetna",
+        "menuHome": "Početna",
         "menuAboutUs": "O nama",
         "menuProducts": "Proizvodi",
         "menuProduction": "Proizvodnja",
@@ -13,7 +13,7 @@
         "heading": "KONTAKT",
         "mailValue": "zoran.antic64@gmail.com",
         "mobilePhoneValue": "+38163313071",
-        "addressValue": "Salinacka bb",
+        "addressValue": "Šalinacka bb",
         "faxValue": "Fax:",
         "mail": "Mejl:",
         "mobilePhone": "Broj telefona:",
@@ -35,5 +35,9 @@
     },
     "products": {
         "heading": "PROIZVODI"
+    },
+    "home": {
+        "moto": "Oseti ukus najlepših puževa.",
+        "motoDescription": "Vocarescar je fabrika za preradu živog puža. Vršimo otkup živog puža i prerađujemo ga u gotov proizvod (smrznuto meso). Spremamo i prerađujemo oprane kućice za konzumaciju."
     }
 }

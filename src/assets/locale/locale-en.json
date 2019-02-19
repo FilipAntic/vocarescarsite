@@ -35,5 +35,9 @@
     },
     "products": {
         "heading": "PROIZVODI"
+    },
+    "home": {
+        "moto": "Life Should Taste As Good As Snails.",
+        "motoDescription": "Vocarescar je fabrika za preradu živog puža. Vršimo otkup živog puža i prerađujemo ga u gotov proizvod (smrznuto meso). Spremamo i prerađujemo oprane kućice za konzumaciju."
     }
 }
