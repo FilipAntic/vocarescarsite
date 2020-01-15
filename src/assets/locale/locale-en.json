@@ -1,43 +1,43 @@
 {
-    "menu": {
-        "menuHome": "Home",
-        "menuAboutUs": "About Us",
-        "menuProducts": "Products",
-        "menuProduction": "Production",
-        "menuContact": "Contact",
-        "menuLanguageSerbian": "Serbian",
-        "menuLanguageEnglish": "English",
-        "menuLanguageFrench": "French"
-    },
-    "contact": {
-        "heading": "CONTACT",
-        "mailValue": "zoran.antic64@gmail.com",
-        "mobilePhoneValue": "+38163313071",
-        "addressValue": "Salinacka bb",
-        "faxValue": "Fax:",
-        "mail": "Mail:",
-        "mobilePhone": "Phone number:",
-        "address": "Address:",
-        "fax": "Fax:",
-        "send": "Send:",
-        "message": "Message:",
-        "name": "Name:",
-        "address1": "Ljermontova 13 1, 12,",
-        "city": "Beograd"
-    },
-    "aboutUs": {
-        "heading": "ABOUT US",
-        "mainText": "Naše preduzeće je osnovano u maju mesecu 2017. godine. Delatnost preduzeća je prerada i proizvodnja mesa i kućica puževa. \nGrad Smederevo decenijama unazad ima tradiciju u proizvodnji i preradi jestivih vrsta puževa, kako sa teritorije Srbije, tako i sa teritorija okolnih zemalja. Tehnologija prerade puževa počela je da se razvija još u bivšoj agro kompaniji „VOĆAR BEOGRAD“, pogonska jedinica hladnjača Smederevo, koja se pretežno bavila izvozom delikatesnih proizvoda na tržište zapadnoevropskih zemalja. Ta proizvodnja se kontinuirano odvija i usavršava sve do danas.\n Ljudi sa višedecenijskim iskustvom u ovom poslu, ponovo su udružili snage, i uz pomoć mladih i obrazovanih kadrova pokrenuli novi pogon za preradu puževa u Smederevu.\n Firma „VOCARESCAR“ je orjentisana na proizvodnju i preradu koja je pre svega namenjena za izvoz na tržište zemalja Evropske Unije.\n Nabavka živog puža se vrši od kooperanata koji se dugi niz godina bave tim poslom. To su lica koja su iskusna i obučena za sakupljanje jestivih vrsta puževa, a mnogi od njih imaju porodičnu tradiciju bavljenja ovim poslom. Jedan deo sirovina se uvozi i iz okolnih zemalja (Makedonija, Bosna i Hercegovina, Albanija, Rumunija, Bugarska)."
-    },
-    "production": {
-        "heading": "PRODUCTION",
-        "mainText": "Proizvodne linije koje se nalaze u objektu su adaptirane po aktuelnim evropskim standardima, dok su skladišta najmoderniji potpuno automatizovani rashladni sistemi koji se sastoje od komore za režim hlađenja, režim lagerovanja duboko zamrznute robe i tunela za režim dubokog zamrzavanja.Proizvodnja u našem objektu poseduje proizvodne linije za blanširanje puževa (9,7t/dan), liniju za termičku obradu mesa puževa (1t/dan), liniju za pranje i sterilizaciju kućica (1t/dan)."
-    },
-    "products": {
-        "heading": "PROIZVODI"
-    },
-    "home": {
-        "moto": "Life Should Taste As Good As Snails.",
-        "motoDescription": "Vocarescar je fabrika za preradu živog puža. Vršimo otkup živog puža i prerađujemo ga u gotov proizvod (smrznuto meso). Spremamo i prerađujemo oprane kućice za konzumaciju."
-    }
+  "menu": {
+    "menuHome": "Home",
+    "menuAboutUs": "About Us",
+    "menuProducts": "Products",
+    "menuProduction": "Production",
+    "menuContact": "Contact",
+    "menuLanguageSerbian": "Serbian",
+    "menuLanguageEnglish": "English",
+    "menuLanguageFrench": "French"
+  },
+  "contact": {
+    "heading": "CONTACT",
+    "mailValue": "zoran.antic64@gmail.com",
+    "mobilePhoneValue": "+38163313071",
+    "addressValue": "Salinacka bb",
+    "faxValue": "Fax:",
+    "mail": "Mail:",
+    "mobilePhone": "Phone number:",
+    "address": "Address:",
+    "fax": "Fax:",
+    "send": "Send",
+    "message": "Message:",
+    "name": "Name:",
+    "address1": "Ljermontova 13 1, 12,",
+    "city": "Beograd"
+  },
+  "aboutUs": {
+    "heading": "ABOUT US",
+    "mainText": "Our company is established on May in 2017. The activity of the company is production and processing of the meat and sells of the snails. The city of Smederevo decades back has a tradition in the production and processing of edible species of snails, both from the territory of Serbia and from the territory of surrounding countries. Technology of the processing snails started to developing in the ex ago-company „ VOCAR BELGRADE“, this is a cold storage drive unit that was mainly involved in the export of delicatessen products to the market of Western European countries. That production has continually developed and perfected until nowadays. People with decades of experience in this job, again have restrained forces, and with the help of  young and educated staff has started up the new operation of processing which is intended for export on the market of the countries of European Union. Procurement of live snail is done by subcontractors which a lot of years has done with this job. These are people who are experience and trained for collecting edible snails, and a lot of them has a familiar tradition doing this job. One piece of raw materials is importing from surrounding countries ( Macedonia, Bosnia and Herzegovina, Albania, Romania and Bulgaria)."
+  },
+  "production": {
+    "heading": "PRODUCTION",
+    "mainText": "The production lines in the facility have been adapted to current European standards, while the warehouses are state-of-the-art fully automated refrigeration systems consisting of a cooling mode chamber, deep frozen goods storage tunnel and deep freezing tunnels. Production in our facility has production lines for blanching of snails (9.7t / day), line for heat treatment of snail meat (1t / day), line for washing and sterilizing houses (1t / day)."
+  },
+  "products": {
+    "heading": "PROIZVODI"
+  },
+  "home": {
+    "moto": "Life Should Taste As Good As Snails.",
+    "motoDescription": "Vocarescar is a live snail processing plant. We buy live snail and process it into a finished product (frozen meat). We store and process washed houses for consumption."
+  }
 }
